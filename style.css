@@ -1,0 +1,56 @@
+:root{
+    --mdc-theme-primary: #E6002B;
+}
+
+aside img{
+    width: 95%;
+    padding: 10px 0 0 10px;
+}
+
+.mdc-tab-scroller{
+    background-color: #dadada;
+}
+
+.mdc-image-list--masonry
+{
+    column-count: 2;
+}
+
+.hidden{
+    display: none;
+}
+
+.sheet {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    margin-left: 0;
+    background-color: #2e2e2e;
+    transition: 0.3s ease;
+}
+
+.sheet-out-of-view{
+    margin-left: -100%;
+}
+
+.sheet main {
+    min-height: calc(100vh - 56px - 48px); 
+}
+
+.sheet img
+{
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--mdc-theme-primary);
+}
+
+footer .mdc-tab__icon{
+    color: white !important;
+}
+
